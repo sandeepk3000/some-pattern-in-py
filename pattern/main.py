@@ -8,3 +8,13 @@ for i in range(1, 7):
       else:
         print(" ", end=" ")
   print()
+
+# number triangular
+for i in range(1, 5):
+  for j in range(4,0,-1):
+    if j - i <= 0 :
+      print(f" {i} " , end=" ")
+    else:
+      print(" ", end=" ")  
+  print()
+      
