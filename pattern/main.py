@@ -17,4 +17,26 @@ for i in range(1, 5):
     else:
       print(" ", end=" ")  
   print()
-      
+  
+# diamond pattern
+for i in range(1, 4):
+  for j in range(4,0,-1):
+    if j - i <= 0 :
+      print(f" {i} " , end=" ")
+    else:
+      print(" ", end=" ")  
+  print() 
+
+for i in range(4,0,-1):
+  for j in range(4,0,-1):
+    if j - i <= 0 :
+      print(f" {i} " , end=" ")
+    else:
+      print(" ", end=" ")  
+  print() 
+
+
+
+
+  
+
